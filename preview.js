@@ -1,1 +1,0 @@
-const a=document.getElementById('account');if(a&&sessionStorage.getItem('aj_demo_role')){a.textContent='Keluar Preview';a.href='#';a.onclick=e=>{e.preventDefault();sessionStorage.removeItem('aj_demo_role');location.href='index.html'}}
